@@ -10,7 +10,8 @@ export const UncontrolledAccordion = (props: Props) => {
     return (
         <div>
             <h2>---Menu---</h2>
-            <button onClick={() => setCollapsed(!collapsed)}>TOGGLE</button>
+            <button onClick={() =>
+                setCollapsed(!collapsed)}>TOGGLE</button>
             <ul>
                 <li>1</li>
                 <li>2</li>
